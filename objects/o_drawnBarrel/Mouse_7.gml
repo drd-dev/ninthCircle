@@ -2,6 +2,10 @@
 // You can write your code in this editor
 
 
+
+
 if(x = o_gunPartPicker_barrel.x){
-	replaceBarrel(gun);
+	if(global.barrelUnlockedIndex[index] == true){
+		replaceBarrel(global.barrelIndex[index]);
+		}
 }

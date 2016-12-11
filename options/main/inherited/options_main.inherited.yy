@@ -1,7 +1,8 @@
 1.0.0←ed6a955d-5826-4f98-a450-10b414266c27←ed6a955d-5826-4f98-a450-10b414266c27|{
     "option_gameguid": "2caa5fb8-d85f-436a-8539-8e374fb87df3",
-    "option_lastchanged": "12/9/2016 9:18:38 PM",
-    "option_game_speed": 60
+    "option_lastchanged": "12/11/2016 1:23:21 PM",
+    "option_game_speed": 60,
+    "option_author": "Dylan Dougherty"
 }←7fa50043-cea6-4cd0-9521-a8ba8c6ea9f0|{
     "audioGroups": {
         "Additions": [

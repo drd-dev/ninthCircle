@@ -11,8 +11,8 @@
     "bbox_right": 15,
     "bbox_top": 0,
     "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
+    "colkind": 0,
+    "coltolerance": 32,
     "frames": [
         {
             "id": "3756628a-fa2d-460a-ac05-ff163e5f3e9a",

@@ -4,5 +4,5 @@
 
 
 if(x = o_gunPartPicker_body.x){
-	replaceBody(gun);
+	replaceBody(global.bodyIndex[index]);
 }

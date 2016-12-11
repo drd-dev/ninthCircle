@@ -4,22 +4,40 @@
 
 
 
-if(place_meeting(x,y, o_player)){
+if(place_meeting(x,y, o_player) && global.running == false && global.dead = false){
+	//open the store when E is pressed
+		//play animation
+		sprite_index = s_store_open;
+		image_speed = 0.5;
 	
 
-	if(keyboard_check_pressed(ord("E"))){
-		openStore();
+
+	//stop animation
+	if(image_index > image_number-1){
+		image_speed = 0;
+		open = true;
 	}
 	
-	if (opened == false){
-		instance_create_layer(x + 32,y+20,"game",o_openButton);
-		opened = true;
+//on animation end open the store
+if(open == true && doOnce = false){
+	selectedBarrel = 0;
+	selectedBody = 0;
+	openStore();
+	doOnce = true;
 	}
+}else{
+//reset flags
+open = false;
+doOnce = false;
+if(image_index > 0){
+	image_speed = -0.5;
+	closeStore();
 }
-else{
-	with(o_openButton){
-		opened = false;
-		instance_destroy();
+if(image_index = 0){
+	image_speed = 0;
+	
+}
 
-	}
+
+
 }

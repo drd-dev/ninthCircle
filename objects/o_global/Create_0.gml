@@ -23,6 +23,9 @@ global.coins = 0;
 //death
 global.dead = false;
 
+//game running
+global.running = false;
+
 //index setup
 global.barrelNum = 0;
 global.bodyNum = 0;

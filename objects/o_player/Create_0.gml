@@ -1,6 +1,9 @@
 /// @description Initialize the player
 // You can write your code in this editor
 
+global.dead = false;
+
+
 hp = 10;
 maxHp = hp;
 moveSpeed = 0.5;
@@ -9,6 +12,7 @@ maxSpeed = 4;
 hSpeed = 0;
 vSpeed = 0;
 image_speed = 0.5;
+doOnce = false;
 
 scale = 1;
 image_xscale = scale;

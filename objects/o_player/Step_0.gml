@@ -5,6 +5,12 @@
 //check for death
 if(hp <= 0){
 	global.dead = true;
+	global.running = false;
+	sprite_index = s_player_dead;
+	if(doOnce == false){
+		alarm[0] = 120;
+		doOnce = true;
+	}	
 }
 
 
@@ -47,14 +53,12 @@ if(global.dead == false){
 	}
 }
 
-if(global.dead == true){
-	sprite_index = s_player_dead;
+
+
+//update the x position if alive
+if(global.dead == false){
+	phy_position_x += hSpeed;
 }
-
-
-
-//update the x position 
-phy_position_x += hSpeed;
 
 
 

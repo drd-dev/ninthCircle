@@ -30,6 +30,6 @@ if(seconds > 59){
 
 
 
-if(global.dead = false){
+if(global.running = true){
 	miliseconds += 1;
 }
