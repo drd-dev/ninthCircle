@@ -30,4 +30,4 @@ if(hp < 1){
 
 //move down
 
-phy_position_y += moveSpeedY;
+//phy_position_y += moveSpeedY;

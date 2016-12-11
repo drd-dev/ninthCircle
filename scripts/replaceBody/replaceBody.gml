@@ -16,7 +16,7 @@ with(global.currentBody){
 global.currentBody = newbody;
 
 //create new body
-instance_create_layer(global.currentBarrel.x, global.currentBarrel.y+16, "game", global.currentB);
+instance_create_layer(global.currentBarrel.x, global.currentBarrel.y+16, "game", global.currentBody);
 
 
 

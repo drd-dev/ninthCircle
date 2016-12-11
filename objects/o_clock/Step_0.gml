@@ -30,5 +30,6 @@ if(seconds > 59){
 
 
 
-
-miliseconds += 1;
+if(global.dead = false){
+	miliseconds += 1;
+}

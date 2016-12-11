@@ -3,3 +3,5 @@
 
 
 hp += - 1;
+
+audio_play_sound(a_playerHit,10, false);

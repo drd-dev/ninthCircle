@@ -4,11 +4,8 @@
 draw_self();
 
 
-text = hp;
+Color = make_color_rgb(163,44,44);
 
-draw_set_font(fnt_clock);
-draw_set_halign(fa_left);
-draw_set_valign(fa_middle);
+percentage = (hp/maxHp*100);
 
-
-draw_text_transformed(x, y- 30, text, 0.5, 0.5, 0);
+draw_healthbar(x-8,y-15,x+8,y-11,percentage,c_black,Color,Color,0,true,true);

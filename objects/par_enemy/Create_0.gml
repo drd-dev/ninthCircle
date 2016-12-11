@@ -5,6 +5,7 @@
 moveSpeedX = 2;
 moveSpeedY = 1;
 hp = 5;
+maxHp = hp;
 hit = false;
 coinsDropped = irandom_range(1,2);
 

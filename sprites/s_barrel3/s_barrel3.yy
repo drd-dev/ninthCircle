@@ -1,7 +1,7 @@
 {
     "id": "84ec30de-c797-4788-9b42-dd60844dcdb4",
     "modelName": "GMSprite",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "s_barrel3",
     "For3D": false,
     "HTile": false,

@@ -9,8 +9,6 @@ if(keyboard_check(vk_space) ){
 
 
 
-
-
 	if(shot > shootSpeed){
 		shot = 0;
 	}

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //set shoot speed
-shootSpeed = 5;
+shootSpeed = 10;
 
 
 
@@ -10,10 +10,17 @@ shootSpeed = 5;
 
 
 //set initial location
-x = o_player.phy_position_x - 10;
-y = o_player.phy_position_y -1;
+image_xscale = -1;
 
 
-//create the barrel
-instance_create_layer(x,y-16,"game",global.currentBarrel);
+//control look
+if(x < o_player.x){
+	image_xscale = 1;
+}
+
+
+if(x > o_player.x){
+	image_xscale = -1;
+}
+
 
