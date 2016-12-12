@@ -6,7 +6,8 @@
     "children": [
         "0251880a-43a9-47a3-a52d-1a286f2af324",
         "ca20c34e-566d-4899-9ce6-5b8c072c2b75",
-        "ef6c686c-9dcd-4808-a1cb-3d20064fe45d"
+        "ef6c686c-9dcd-4808-a1cb-3d20064fe45d",
+        "23eaa34c-0913-4b0e-91f8-0b4e40960bb4"
     ],
     "filterType": "GMObject",
     "folderName": "bullets",

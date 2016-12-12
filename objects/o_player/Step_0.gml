@@ -8,6 +8,7 @@ if(hp <= 0){
 	global.running = false;
 	sprite_index = s_player_dead;
 	if(doOnce == false){
+		audio_play_sound(a_death,10,false);
 		alarm[0] = 120;
 		doOnce = true;
 	}	

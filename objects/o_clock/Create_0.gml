@@ -5,3 +5,5 @@
 miliseconds = 0;
 seconds = 0;
 minutes = 0;
+
+runTime = 0;

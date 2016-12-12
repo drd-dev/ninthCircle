@@ -32,4 +32,5 @@ if(seconds > 59){
 
 if(global.running = true){
 	miliseconds += 1;
+	runTime += 1/room_speed;
 }

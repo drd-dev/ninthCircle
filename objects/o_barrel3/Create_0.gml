@@ -3,5 +3,5 @@
 event_inherited();
 
 
-global.currentBullet = o_bullet_shrap;
+global.currentBullet = o_bullet_norm;
 bulletPerShot = 1;

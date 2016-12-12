@@ -6,7 +6,9 @@
     "children": [
         "236cfc02-1644-4213-b808-860179b69b47",
         "6368c4cd-264a-4485-adbb-b9281cca4ead",
-        "84ec30de-c797-4788-9b42-dd60844dcdb4"
+        "64de4eec-ab15-4601-9cdd-6ddf1ef96dcb",
+        "84ec30de-c797-4788-9b42-dd60844dcdb4",
+        "15b05559-efe4-4e78-a4ee-8e639278e952"
     ],
     "filterType": "GMSprite",
     "folderName": "barrels",

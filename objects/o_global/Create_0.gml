@@ -5,8 +5,8 @@
 
 //load audio groups
 audio_group_load(Shoot);
-audio_group_set_gain(Shoot,10/100,0);
-audio_group_set_gain(Default,10/100,0);
+audio_group_set_gain(Shoot,30/100,0);
+audio_group_set_gain(Default,30/100,0);
 audio_group_load(enemy);
 
 

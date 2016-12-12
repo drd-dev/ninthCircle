@@ -122,7 +122,7 @@
                     "mvc": "1.0",
                     "depth": -100,
                     "hierarchyFrozen": false,
-                    "hierarchyVisible": true,
+                    "hierarchyVisible": false,
                     "inheritLayerDepth": false,
                     "inheritLayerSettings": false,
                     "inheritSubLayers": false,
@@ -134,7 +134,7 @@
                     "m_serialiseFrozen": false,
                     "name": "collision",
                     "userdefined_depth": false,
-                    "visible": true,
+                    "visible": false,
                     "instances": [
                         {
                             "id": "7336e8f9-e080-4b18-9602-f91fe209c228",

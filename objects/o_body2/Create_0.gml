@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //set shoot speed
-shootSpeed = 5;
+shootSpeed = 9;
 
 
 
